@@ -1,46 +1,465 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://k-knackgear.github.io/baidu_verify_8r15srwCQy.html</loc>
-    
-    <lastmod>2018-11-26T17:08:33.302Z</lastmod>
-    
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
   </url>
   
   <url>
-    <loc>https://k-knackgear.github.io/google3807e61c6fd99f8c.html</loc>
-    
-    <lastmod>2018-11-26T15:47:42.752Z</lastmod>
-    
+    <loc>http://localhost:1313/</loc>
   </url>
   
   <url>
-    <loc>https://k-knackgear.github.io/Final_Fantasy/Final_Fantasy_VI/Final_Fantasy_VI_SFC_SNES/Final_Fantasy_VI_SFC_SNES_Detail/</loc>
-    
-    <lastmod>2018-11-26T07:35:20.051Z</lastmod>
-    
+    <loc>http://localhost:1313/post/5200-menu-usa-proto/</loc>
   </url>
   
   <url>
-    <loc>https://k-knackgear.github.io/Final_Fantasy/Final_Fantasy_VI/Final_Fantasy_VI_Intro/</loc>
-    
-    <lastmod>2018-11-26T06:25:17.841Z</lastmod>
-    
+    <loc>http://localhost:1313/post/a.e.-usa-proto/</loc>
   </url>
   
   <url>
-    <loc>https://k-knackgear.github.io/Final_Fantasy/Final_Fantasy_Intro/</loc>
-    
-    <lastmod>2018-11-25T13:23:51.490Z</lastmod>
-    
+    <loc>http://localhost:1313/post/activision-decathlon-the-usa/</loc>
   </url>
   
   <url>
-    <loc>https://k-knackgear.github.io/Index/</loc>
-    
-    <lastmod>2018-11-25T12:30:12.849Z</lastmod>
-    
+    <loc>http://localhost:1313/post/asteroids-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/astro-chase-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/atari-pam-petes-test-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/atari-pam-diagnostics-usa-v2.0/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/atari-pam-diagnostics-usa-v2.3/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/atari-pam-system-test-usa-v1.02/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/ballblazer-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/barroom-baseball-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/battlezone-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/beamrider-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/berzerk-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/black-belt-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/blaster-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/blue-print-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/boogie-usa-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/bounty-bob-strikes-back-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/buck-rogers-planet-of-zoom-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/carol-shaws-river-raid-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/castle-blast-usa-unl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/castle-crisis-usa-unl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/centipede-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/choplifter-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/congo-bongo-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/countermeasure-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/david-cranes-pitfall-ii-lost-caverns-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/defender-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/dig-dug-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/dreadnaught-factor-the-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/final-legacy-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/frisky-tom-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/frogger-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/frogger-ii-threeedeep-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/galaxian-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/gorf-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/gremlins-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/gyruss-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/h.e.r.o.-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/james-bond-007-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/joust-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/jr.-pac-man-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/jungle-hunt-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/k-razy-shoot-out-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/kaboom-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/kangaroo-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/keystone-kapers-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/koffi-yellow-kopter-usa-unl/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/last-starfighter-the-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/looney-tunes-hotel-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/mario-bros.-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/meebzork-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/megamania-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/meteorites-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/microgammon-sb-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/millipede-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/miner-2049er-starring-bounty-bob-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/miniature-golf-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/missile-command-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/montezumas-revenge-featuring-panama-joe-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/moon-patrol-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/mountain-king-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/mr.-dos-castle-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/ms.-pac-man-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/pac-man-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/pengo-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/pitfall-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/pole-position-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/popeye-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/q-bert-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/qix-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/quest-for-quintana-roo-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-baseball-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-basketball-usa-82-11-05-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-basketball-usa-83-10-31-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-basketball-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-football-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-soccer-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/realsports-tennis-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/rescue-on-fractalus-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/road-runner-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/robotron-2084-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/space-dungeon-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/space-invaders-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/space-shuttle-a-journey-into-space-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/spitfire-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/sport-goofy-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/star-raiders-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/star-trek-strategic-operations-simulator-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/star-wars-return-of-the-jedi-death-star-battle-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/star-wars-the-arcade-game-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/stargate-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/super-breakout-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/super-cobra-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/super-pac-man-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/tempest-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/track-and-field-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/vanguard-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/wizard-of-wor-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/xari-arena-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/xevious-usa-proto/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/yellow-submarine-usa-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/zaxxon-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/zenji-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/zone-ranger-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/bios-atari-5200-usa/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/5200-menu-usa-proto-demo/</loc>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/categories/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/post/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/tags/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>http://localhost:1313/about/</loc>
   </url>
   
 </urlset>
