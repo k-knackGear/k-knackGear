@@ -1,38 +1,30 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>K-knackGear</title>
+    <title>Categories on K-knackGear</title>
     <link>https://www.kknackgear.top/categories/</link>
-    <description>Recent content on K-knackGear</description>
+    <description>Recent content in Categories on K-knackGear</description>
     <generator>Hugo -- gohugo.io</generator>
     
 	<atom:link href="https://www.kknackgear.top/categories/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>5200 Menu (USA) (Proto)5200 Menu (USA) Demo</title>
-      <link>https://www.kknackgear.top/post/5200-menu-usa-proto-demo/</link>
+      <title>Game</title>
+      <link>https://www.kknackgear.top/categories/game/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kknackgear.top/post/5200-menu-usa-proto-demo/</guid>
-      <description>Name: 5200 Menu (USA) (Proto)
-Description: 5200 Menu (USA) (Proto)
-Download: Atari PAM Diagnostics (USA) (v2.3)
-Size: 8192
-MD5: 07D1A296B2FA1CEDF2A5FA029783E9ED</description>
+      <guid>https://www.kknackgear.top/categories/game/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>5200 Menu (USA) (Proto)5200 Menu (USA) Demo</title>
-      <link>https://www.kknackgear.top/post/5200-menu-usa-proto-demo/</link>
+      <title>Rom</title>
+      <link>https://www.kknackgear.top/categories/rom/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>https://www.kknackgear.top/post/5200-menu-usa-proto-demo/</guid>
-      <description>Name: 5200 Menu (USA) (Proto)
-Description: 5200 Menu (USA) (Proto)
-Download: Atari PAM Diagnostics (USA) (v2.3)
-Size: 8192
-MD5: 07D1A296B2FA1CEDF2A5FA029783E9ED</description>
+      <guid>https://www.kknackgear.top/categories/rom/</guid>
+      <description></description>
     </item>
     
   </channel>

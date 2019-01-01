@@ -105,6 +105,49 @@ input:checked ~ .hamburger-menu-overlay {
     line-height: 1.7;
     color: white;
 }
+
+.search-section {
+  max-width: 23rem;
+  margin-left: 400px;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.search-result {
+  overflow-y: scroll;
+  max-width: 47rem;
+  max-height: 25rem;
+  margin: 2.2rem 0;
+  box-sizing: border-box;
+  background-color: white;
+  text-decoration: none;
+  border-radius: 0.3rem;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  transition: transform 0.2s cubic-bezier(0.25,0.8,0.25,1), box-shadow 0.2s cubic-bezier(0.25,0.8,0.25,1);
+  box-shadow: 0 0.5rem 1rem 0 rgba(0,0,0,0.19), 0 0.3rem 0.3rem -0.1rem rgba(0,0,0,0.23);
+}
+
+.search-result-unit {
+  max-width: 47rem;
+  margin: 0.5rem 0.5rem;
+  background-color: #c2c2c2;
+  max-height: 100px;
+  font-size: 0.9rem;
+}
+.search-result-unit-image{
+  box-sizing: border-box;
+  max-width: 5%;
+  max-height: 40px;
+  margin: 2%;
+}
+.search-result-unit-text{
+  box-sizing: border-box;
+  max-width: 90%;
+  max-height: 90%;
+  margin-bottom: 0.5px;
+  float: right;
+}
+
 .post {
     margin: 0 0 1em 0;
     line-height: 1.5;
@@ -307,7 +350,7 @@ blockquote p {
 }
 ul,
 ol {
-    padding-left: 1.6em; 
+    padding-left: 1.6em;
 }
 li ul, li ol {
     padding-left: 1em;
