@@ -1,9 +1,19 @@
 <!DOCTYPE html>
+
+
 <html lang="" dir="ltr">
-  <head>
+<head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <title>Posts &middot; K-knackGear</title>
   <meta name="description" content="" />
   
@@ -17,9 +27,7 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-  <script type = "text/javascript" > 
-	
-  </script> 
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
   <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
   
@@ -30,8 +38,9 @@
   </style>
   
 </head>
-  <body class="list-body">
-    <nav class="nav-bar side-padding">
+
+<body class="body">
+  <nav class="nav-bar side-padding">
   <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
@@ -56,173 +65,543 @@
 	
   </div>
 </nav>
+  
+<div id="result" class="search-section" style="display:block;">
 
-    <main class="card-container side-gutter">
-      <header class="list-header">
-        <p class="list-header-subtext"></p>
-        <h1 class="list-header-title">Posts</h1>
-      </header>
-      
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/barbie-groovy-games-usa/" class="card blog-card" rel="bookmark" >
+		<input id="keyword" type="text" value="">
+		<button type="button" name="search" onclick="search()">search</button>
+		
+
+
+</div>
+<div id="searchresultext" class="search-result">
+
+</div>
+
+
+
+  
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/post/page/56/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/post/page/58/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
+
+  <main class="container">
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="card-img">
-    </div>
+    <div class="row">
+        
+        
+
+
     
-  <article class="card-body">
-    <h2 class="card-title">Barbie Groovy Games (USA)</h2>
-    <p class="card-text">Description: Barbie Groovy Games (USA)
-Download: Barbie Groovy Games (USA)
-Size: 4194304
-MD5: C1B8FBFC0F67A1F8E0C60543167B7DBA</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fifa-soccer-06-usa-europe-enfrdeesitnl/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FIFA%20Soccer%2006-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FIFA Soccer 06 (USA, Europe) (En,Fr,De,Es,It,Nl)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/barbie-horse-adventures-europe-enfrdeesitnl/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Barbie Horse Adventures (Europe) (En,Fr,De,Es,It,Nl)</h2>
-    <p class="card-text">Description: Barbie Horse Adventures (Europe) (En,Fr,De,Es,It,Nl)
-Download: Barbie Horse Adventures (Europe) (En,Fr,De,Es,It,Nl)
-Size: 4194304
-MD5: F7960BB4694205288A59556AB82C34E5</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fifa-soccer-07-usa-europe-enfrdees/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FIFA%20Soccer%2007-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FIFA Soccer 07 (USA, Europe) (En,Fr,De,Es)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/barbie-horse-adventures-blue-ribbon-race-usa/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Barbie%20Horse%20Adventures_%20Blue%20Ribbon%20Race-01.png" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Barbie Horse Adventures - Blue Ribbon Race (USA)</h2>
-    <p class="card-text">Description: Barbie Horse Adventures - Blue Ribbon Race (USA)
-Download: Barbie Horse Adventures - Blue Ribbon Race (USA)
-Size: 4194304
-MD5: B0C8EDEAE511C647F9617B32DDC37594</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fifa-soccer-2003-usa-europe-enfrdeesit/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FIFA%20Soccer%202003-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FIFA Soccer 2003 (USA, Europe) (En,Fr,De,Es,It)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/barbie-superpack-europe-enfrdeesit/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Barbie%20Superpack-01.png" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Barbie Superpack (Europe) (En,Fr,De,Es,It)</h2>
-    <p class="card-text">Description: Barbie Superpack (Europe) (En,Fr,De,Es,It)
-Download: Barbie Superpack (Europe) (En,Fr,De,Es,It)
-Size: 8388608
-MD5: F26ABD577F7854C5F967EF5F0D1396AD</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fifa-soccer-2004-usa-europe-enfrdeesit/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FIFA%20Soccer%202004-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FIFA Soccer 2004 (USA, Europe) (En,Fr,De,Es,It)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/barbie-superpack-usa/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Barbie%20Superpack-01.png" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Barbie Superpack (USA)</h2>
-    <p class="card-text">Description: Barbie Superpack (USA)
-Download: Barbie Superpack (USA)
-Size: 8388608
-MD5: 50552A80C5D80210C941E4AD8230E814</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fifa-soccer-2005-usa-europe-enfrdeesitnl/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FIFA%20Soccer%202005-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FIFA Soccer 2005 (USA, Europe) (En,Fr,De,Es,It,Nl)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-    </main>
+</div>
+
+        
+        
+
+
     
-    <nav class="pagination-nav side-padding">
-      <a href="https://www.kknackgear.top/post/page/56/" class="pagination-newer">&lt; Newer Posts</a>
-      <a href="https://www.kknackgear.top/post/page/58/" class="pagination-older">Older Posts &gt;</a>
-    </nav>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fila-decathlon-europe-beta/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FILA%20Decathlon-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FILA Decathlon (Europe) (Beta)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fila-decathlon-europe-enfrdeesitsv/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/FILA%20Decathlon-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>FILA Decathlon (Europe) (En,Fr,De,Es,It,Sv)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-breakin-da-rules-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Breakin&#39; da Rules (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-clash-with-the-anti-world-europe-endeesnl/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Clash with the Anti-World (Europe) (En,De,Es,Nl)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-clash-with-the-anti-world-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Clash with the Anti-World (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-enter-the-cleft-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Enter the Cleft (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-shadow-showdown-europe/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Fairly%20OddParents!,%20The%20-%20Shadow%20Showdown%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Shadow Showdown (Europe)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/fairly-oddparents-the-shadow-showdown-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Fairly%20OddParents!,%20The%20-%20Shadow%20Showdown%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Fairly OddParents!, The - Shadow Showdown (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/famicom-mini-dai-2-ji-super-robot-taisen-japan-promo/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Famicom Mini - Dai-2-ji Super Robot Taisen (Japan) (Promo)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/famicom-mini-kidou-senshi-z-gundam-hot-scramble-japan-promo/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Famicom Mini - Kidou Senshi Z Gundam - Hot Scramble (Japan) (Promo)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/famicom-mini-01-super-mario-bros.-japan-en-rev-1/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Famicom Mini 01 - Super Mario Bros. (Japan) (En) (Rev 1)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
 
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="https://www.kknackgear.top/js/core.js"></script>
+<script type="text/javascript" src="https://www.kknackgear.top/js/search.js"></script>
 <script>
-  hljs.initHighlightingOnLoad();
+  
 
-  var funt = {
-		_searchResult: function(){
-			var nWord = $("#searchinput").val();
-			
-			var array = this.unique(nWord.split(" "));
-			var dsa = $("#result").find("ul li a");
-			var linumber = 0;
-			console.log(array[0]);
-			if(array[0]!=""){
-        var searchresul =0;
-				for (var t = 0; t < array.length; t++) {
-  					for(var d = 0; d < dsa.length; d++){
-  						if(dsa[d].text.search(array[t]) !== -1){
-  							
-        				
-    							$(dsa[d]).closest("li").show();
-                  searchresul++;
-    						}else{
-                  $(dsa[d]).closest("li").hide();
-    						}
-  					 }
-  				 }
-           if(searchresul>0){
-  				     $("#result").show();
-           }else {
-             $("result").hide();
-           }
-  			}else {
-          $("result").hide();
-        }
-
-		},
-		unique: function (arr) {
-			var new_arr = [];
-			for (var i = 0; i < arr.length; i++) {
-				var items = arr[i];
-				
-				if ($.inArray(items, new_arr) == -1) {
-					new_arr.push(items);
-				}
-			}
-			return new_arr;
-		}
-	}
+  
+	
+	
+	
+	
+	
+	
+	
+	
+  
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 </script>
 
-  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+
 </html>

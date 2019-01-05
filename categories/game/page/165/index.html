@@ -1,9 +1,19 @@
 <!DOCTYPE html>
+
+
 <html lang="" dir="ltr">
-  <head>
+<head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  
+  <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
   <title>Game &middot; K-knackGear</title>
   <meta name="description" content="" />
   
@@ -17,9 +27,7 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
-  <script type = "text/javascript" > 
-	
-  </script> 
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
   <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
   
@@ -30,8 +38,9 @@
   </style>
   
 </head>
-  <body class="list-body">
-    <nav class="nav-bar side-padding">
+
+<body class="body">
+  <nav class="nav-bar side-padding">
   <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
@@ -56,172 +65,543 @@
 	
   </div>
 </nav>
+  
+<div id="result" class="search-section" style="display:block;">
 
-    <main class="card-container side-gutter">
-      <header class="list-header">
-        <p class="list-header-subtext"></p>
-        <h1 class="list-header-title">Game</h1>
-      </header>
-      
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/duel-masters-3-japan/" class="card blog-card" rel="bookmark" >
+		<input id="keyword" type="text" value="">
+		<button type="button" name="search" onclick="search()">search</button>
+		
+
+
+</div>
+<div id="searchresultext" class="search-result">
+
+</div>
+
+
+
+  
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/game/page/164/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/game/page/166/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
+
+  <main class="container">
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="card-img">
-    </div>
+    <div class="row">
+        
+        
+
+
     
-  <article class="card-body">
-    <h2 class="card-title">Duel Masters 3 (Japan)</h2>
-    <p class="card-text">Description: Duel Masters 3 (Japan)
-Download: Duel Masters 3 (Japan)
-Size: 8388608
-MD5: 0635910ECEB7B59722A49C9D7D12BBC2</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spider-man-3-italy/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spider-Man%203-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spider-Man 3 (Italy)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/duel-masters-3-japan-rev-1/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Duel Masters 3 (Japan) (Rev 1)</h2>
-    <p class="card-text">Description: Duel Masters 3 (Japan) (Rev 1)
-Size: 8388608
-MD5: 9F06BD310C8D20249B745E38104067D9</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spider-man-3-spain/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spider-Man%203-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spider-Man 3 (Spain)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/duke-nukem-advance-europe-enfrdeit/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Duke%20Nukem%20Advance-01.jpg" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Duke Nukem Advance (Europe) (En,Fr,De,It)</h2>
-    <p class="card-text">Description: Duke Nukem Advance (Europe) (En,Fr,De,It)
-Download: Duke Nukem Advance (Europe) (En,Fr,De,It)
-Size: 8388608
-MD5: 54BC72AB1F56930DDB05C66F118D7608</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spider-man-3-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spider-Man%203-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spider-Man 3 (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/duke-nukem-advance-usa/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Duke%20Nukem%20Advance-01.jpg" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Duke Nukem Advance (USA)</h2>
-    <p class="card-text">Description: Duke Nukem Advance (USA)
-Download: Duke Nukem Advance (USA)
-Size: 8388608
-MD5: DFCA43FB18B5EE86B3ECAB2631862D6F</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirit-der-wilde-mustang-auf-der-suche-nach-homeland-germany/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spirit%20-%20Der%20Wilde%20Mustang,%20Auf%20der%20Suche%20nach%20Homeland%20[Germany].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirit - Der Wilde Mustang - Auf der Suche nach Homeland (Germany)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-      <a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)" 
-  href="https://www.kknackgear.top/post/gba/dungeons-dragons-eye-of-the-beholder-europe-enfrdeesit/" class="card blog-card" rel="bookmark" >
+</div>
+
+        
+        
+
+
     
-    <div class="card-img-container">
-      <img src="https://www.kknackgear.top/img/gba/Dungeons%20&amp;%20Dragons_%20Eye%20of%20the%20Beholder-01.jpg" class="card-img">
-    </div>
     
-  <article class="card-body">
-    <h2 class="card-title">Dungeons &amp; Dragons - Eye of the Beholder (Europe) (En,Fr,De,Es,It)</h2>
-    <p class="card-text">Description: Dungeons &amp; Dragons - Eye of the Beholder (Europe) (En,Fr,De,Es,It)
-Download: Dungeons &amp; Dragons - Eye of the Beholder (Europe) (En,Fr,De,Es,It)
-Size: 4194304
-MD5: D2F0D0B2CCB4A138636746C46B091CD0</p>
-    <div class="card-subtext muted-text">
-      <p>#game #rom </p>
-    </div>
-  </article>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirit-der-wilde-mustang-auf-der-suche-nach-homeland-germany-beta/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spirit%20-%20Der%20Wilde%20Mustang,%20Auf%20der%20Suche%20nach%20Homeland%20[Germany].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirit - Der Wilde Mustang - Auf der Suche nach Homeland (Germany) (Beta)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
 </a>
-      
-    </main>
+</div>
+
+        
+        
+
+
     
-    <nav class="pagination-nav side-padding">
-      <a href="https://www.kknackgear.top/categories/game/page/164/" class="pagination-newer">&lt; Newer Posts</a>
-      <a href="https://www.kknackgear.top/categories/game/page/166/" class="pagination-older">Older Posts &gt;</a>
-    </nav>
     
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirit-letalon-des-plaines-a-la-recherche-de-la-terre-natale-france/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirit - L&#39;Etalon des Plaines - A la Recherche de la Terre Natale (France)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirit-stallion-of-the-cimarron-search-for-homeland-europe/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spirit_%20Stallion%20of%20the%20Cimarron_%20Search%20for%20Homeland-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirit - Stallion of the Cimarron - Search for Homeland (Europe)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirit-stallion-of-the-cimarron-search-for-homeland-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spirit_%20Stallion%20of%20the%20Cimarron_%20Search%20for%20Homeland-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirit - Stallion of the Cimarron - Search for Homeland (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spirits-spells-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/Spirits%20&amp;%20Spells-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spirits &amp; Spells (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/atari/spitfire-usa-proto/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>Spitfire (USA) (Proto)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-battle-for-bikini-bottom-europe-enfrde/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Battle%20for%20Bikini%20Bottom-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Battle for Bikini Bottom (Europe) (En,Fr,De)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-battle-for-bikini-bottom-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Battle%20for%20Bikini%20Bottom-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Battle for Bikini Bottom (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-creature-from-the-krusty-krab-europe-enfrdeesitnlsvda/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Creature%20from%20the%20Krusty%20Krab-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Creature from the Krusty Krab (Europe) (En,Fr,De,Es,It,Nl,Sv,Da)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-creature-from-the-krusty-krab-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Creature%20from%20the%20Krusty%20Krab-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Creature from the Krusty Krab (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-lights-camera-pants-europe-enfrdeesitnlsv/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Lights,%20Camera,%20Pants!-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Lights, Camera, Pants! (Europe) (En,Fr,De,Es,It,Nl,Sv)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+        
+
+
+    
+    
+<div class="hovereffect col-lg-3 col-md-4 col-sm-6 col-xs-12 border">
+<a ontouchstart="cardPressed.call(this)" ontouchend="cardReleased.call(this)" ontouchmove="cardReleased.call(this)"
+  href="https://www.kknackgear.top/post/gba/spongebob-squarepants-lights-camera-pants-usa/" class="" rel="bookmark" >
+    
+
+
+      <img src="https://www.kknackgear.top/img/gba/SpongeBob%20SquarePants_%20Lights,%20Camera,%20Pants!-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+        </img>
+      <div class="overlay">
+        <h5>SpongeBob SquarePants - Lights, Camera, Pants! (USA)</h5>
+      </div>
+
+
+    
+  
+    
+    
+    
+  
+</a>
+</div>
+
+        
+    </div>
+  </main>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
     onload="renderMathInElement(document.body);"></script>
 
 
-<script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+
 <script type="text/javascript" src="https://www.kknackgear.top/js/core.js"></script>
+<script type="text/javascript" src="https://www.kknackgear.top/js/search.js"></script>
 <script>
-  hljs.initHighlightingOnLoad();
+  
 
-  var funt = {
-		_searchResult: function(){
-			var nWord = $("#searchinput").val();
-			
-			var array = this.unique(nWord.split(" "));
-			var dsa = $("#result").find("ul li a");
-			var linumber = 0;
-			console.log(array[0]);
-			if(array[0]!=""){
-        var searchresul =0;
-				for (var t = 0; t < array.length; t++) {
-  					for(var d = 0; d < dsa.length; d++){
-  						if(dsa[d].text.search(array[t]) !== -1){
-  							
-        				
-    							$(dsa[d]).closest("li").show();
-                  searchresul++;
-    						}else{
-                  $(dsa[d]).closest("li").hide();
-    						}
-  					 }
-  				 }
-           if(searchresul>0){
-  				     $("#result").show();
-           }else {
-             $("result").hide();
-           }
-  			}else {
-          $("result").hide();
-        }
-
-		},
-		unique: function (arr) {
-			var new_arr = [];
-			for (var i = 0; i < arr.length; i++) {
-				var items = arr[i];
-				
-				if ($.inArray(items, new_arr) == -1) {
-					new_arr.push(items);
-				}
-			}
-			return new_arr;
-		}
-	}
+  
+	
+	
+	
+	
+	
+	
+	
+	
+  
+	
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 
 </script>
 
-  <script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+<script data-no-instant>document.write('<script src="/livereload.js?port=1313&mindelay=10"></' + 'script>')</script></body>
+
 </html>
