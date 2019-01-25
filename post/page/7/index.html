@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/post/page/8/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/2-in-1%20Fun%20Pack%20-%20Shrek%202%20&#43;%20Madagascar%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2-in-1 Fun Pack - Shrek 2 &#43; Madagascar (Europe)">
         </img>
       <div class="overlay">
         <h5>2-in-1 Fun Pack - Shrek 2 &#43; Madagascar (Europe)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/2-in-1%20Fun%20Pack%20-%20Shrek%202%20&#43;%20Madagascar%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/2-in-1%20Fun%20Pack%20-%20Shrek%202%20&#43;%20Madagascar%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2-in-1 Fun Pack - Shrek 2 &#43; Madagascar (USA)">
         </img>
       <div class="overlay">
         <h5>2-in-1 Fun Pack - Shrek 2 &#43; Madagascar (USA)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/2-in-1%20Fun%20Pack_%20Shrek%202%20&#43;%20Madagascar_%20Operation%20Penguin-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2-in-1 Fun Pack - Shrek 2 &#43; Madagascar - Operation Penguin (Europe)">
         </img>
       <div class="overlay">
         <h5>2-in-1 Fun Pack - Shrek 2 &#43; Madagascar - Operation Penguin (Europe)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/2-in-1%20Fun%20Pack_%20Shrek%202%20&#43;%20Madagascar_%20Operation%20Penguin-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2-in-1 Fun Pack - Shrek 2 &#43; Madagascar - Operation Penguin (USA)">
         </img>
       <div class="overlay">
         <h5>2-in-1 Fun Pack - Shrek 2 &#43; Madagascar - Operation Penguin (USA)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2006 FIFA World Cup - Germany 2006 (USA, Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>2006 FIFA World Cup - Germany 2006 (USA, Europe) (En,Fr,De,Es,It)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/2K%20Sports%20-%20Major%20League%20Baseball%202K7%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/2K%20Sports%20-%20Major%20League%20Baseball%202K7%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="2K Sports - Major League Baseball 2K7 (USA)">
         </img>
       <div class="overlay">
         <h5>2K Sports - Major League Baseball 2K7 (USA)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20Candy%20Land%20&#43;%20Chutes%20and%20Ladders%20&#43;%20Original%20Memory%20Game%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20Candy%20Land%20&#43;%20Chutes%20and%20Ladders%20&#43;%20Original%20Memory%20Game%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Game Pack! - Candy Land &#43; Chutes and Ladders &#43; Original Memory Game (USA)">
         </img>
       <div class="overlay">
         <h5>3 Game Pack! - Candy Land &#43; Chutes and Ladders &#43; Original Memory Game (USA)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20Ker%20Plunk!%20&#43;%20Toss%20Across%20&#43;%20Tip%20It%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20Ker%20Plunk!%20&#43;%20Toss%20Across%20&#43;%20Tip%20It%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Game Pack! - Ker Plunk! &#43; Toss Across &#43; Tip It (USA)">
         </img>
       <div class="overlay">
         <h5>3 Game Pack! - Ker Plunk! &#43; Toss Across &#43; Tip It (USA)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!_%20Mouse%20Trap%20&#43;%20Simon%20&#43;%20Operation-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20Mouse%20Trap%20&#43;%20Simon%20&#43;%20Operation%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Game Pack! - Mouse Trap &#43; Simon &#43; Operation (USA)">
         </img>
       <div class="overlay">
         <h5>3 Game Pack! - Mouse Trap &#43; Simon &#43; Operation (USA)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!_%20The%20Game%20of%20Life%20&#43;%20Payday%20&#43;%20Yahtzee-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/3%20Game%20Pack!%20-%20The%20Game%20of%20Life%20&#43;%20Payday%20&#43;%20Yahtzee%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Game Pack! - The Game of Life &#43; Payday &#43; Yahtzee (USA)">
         </img>
       <div class="overlay">
         <h5>3 Game Pack! - The Game of Life &#43; Payday &#43; Yahtzee (USA)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in 1 - Rugrats - I Gotta Go Party &#43; SpongeBob SquarePants - SuperSponge &#43; Tak and the Power of Juju (Europe) (En&#43;En&#43;En,Fr,De)">
         </img>
       <div class="overlay">
         <h5>3 Games in 1 - Rugrats - I Gotta Go Party &#43; SpongeBob SquarePants - SuperSponge &#43; Tak and the Power of Juju (Europe) (En&#43;En&#43;En,Fr,De)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!_%20Breakout%20&#43;%20Centipede%20&#43;%20Warlords-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in One! - Breakout &#43; Centipede &#43; Warlords (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>3 Games in One! - Breakout &#43; Centipede &#43; Warlords (Europe) (En,Fr,De,Es,It)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!_%20Breakout%20&#43;%20Centipede%20&#43;%20Warlords-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!%20-%20Breakout%20&#43;%20Centipede%20&#43;%20Warlords%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in One! - Breakout &#43; Centipede &#43; Warlords (USA)">
         </img>
       <div class="overlay">
         <h5>3 Games in One! - Breakout &#43; Centipede &#43; Warlords (USA)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!_%20Super%20Breakout%20&#43;%20Millipede%20&#43;%20Lunar%20Lander-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in One! - Super Breakout &#43; Millipede &#43; Lunar Lander (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>3 Games in One! - Super Breakout &#43; Millipede &#43; Lunar Lander (Europe) (En,Fr,De,Es,It)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!_%20Super%20Breakout%20&#43;%20Millipede%20&#43;%20Lunar%20Lander-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in One! - Super Breakout &#43; Millipede &#43; Lunar Lander (USA)">
         </img>
       <div class="overlay">
         <h5>3 Games in One! - Super Breakout &#43; Millipede &#43; Lunar Lander (USA)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/3%20Games%20in%20One!%20-%20Yars%27%20Revenge%20&#43;%20Asteroids%20&#43;%20Pong%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="3 Games in One! - Yars&#39; Revenge &#43; Asteroids &#43; Pong (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>3 Games in One! - Yars&#39; Revenge &#43; Asteroids &#43; Pong (Europe) (En,Fr,De,Es,It)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/post/page/6/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/post/page/8/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

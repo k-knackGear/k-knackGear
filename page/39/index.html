@@ -28,9 +28,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -40,45 +62,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -88,7 +109,6 @@
     <a href="https://www.kknackgear.top/page/40/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -104,7 +124,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Curious%20George-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Curious George (Europe) (En,Fr,De,Es,It,Sv,Da)">
         </img>
       <div class="overlay">
         <h5>Curious George (Europe) (En,Fr,De,Es,It,Sv,Da)</h5>
@@ -132,7 +152,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Curious%20George-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Curious%20George%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Curious George (USA)">
         </img>
       <div class="overlay">
         <h5>Curious George (USA)</h5>
@@ -160,7 +180,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Custom%20Robo%20GX%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Custom%20Robo%20GX%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Custom Robo GX (Japan)">
         </img>
       <div class="overlay">
         <h5>Custom Robo GX (Japan)</h5>
@@ -188,7 +208,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Cyberdrive%20Zoids%20-%20Kijuu%20no%20Senshi%20Hyuu%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Cyberdrive%20Zoids%20-%20Kijuu%20no%20Senshi%20Hyuu%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Cyberdrive Zoids - Kijuu no Senshi Hyuu (Japan)">
         </img>
       <div class="overlay">
         <h5>Cyberdrive Zoids - Kijuu no Senshi Hyuu (Japan)</h5>
@@ -216,7 +236,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/DK_%20King%20of%20Swing-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/DK%20-%20King%20of%20Swing%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="DK - King of Swing (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>DK - King of Swing (Europe) (En,Fr,De,Es,It)</h5>
@@ -244,7 +264,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/DK_%20King%20of%20Swing-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="DK - King of Swing (USA)">
         </img>
       <div class="overlay">
         <h5>DK - King of Swing (USA)</h5>
@@ -272,7 +292,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/DK_%20King%20of%20Swing-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="DK - King of Swing (USA) (Demo) (Kiosk)">
         </img>
       <div class="overlay">
         <h5>DK - King of Swing (USA) (Demo) (Kiosk)</h5>
@@ -300,7 +320,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Dai-mahjong. (Japan)">
         </img>
       <div class="overlay">
         <h5>Dai-mahjong. (Japan)</h5>
@@ -328,7 +348,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Daigassou! Band-Brothers - Request Selection (Japan) (Expansion Cartridge)">
         </img>
       <div class="overlay">
         <h5>Daigassou! Band-Brothers - Request Selection (Japan) (Expansion Cartridge)</h5>
@@ -356,7 +376,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Daisenryaku for Game Boy Advance (Japan)">
         </img>
       <div class="overlay">
         <h5>Daisenryaku for Game Boy Advance (Japan)</h5>
@@ -384,7 +404,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Daisuki%20Teddy%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Daisuki%20Teddy%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Daisuki Teddy (Japan)">
         </img>
       <div class="overlay">
         <h5>Daisuki Teddy (Japan)</h5>
@@ -412,7 +432,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Dan%20Doh!!%20Tobase%20Shouri%20no%20Smile%20Shot%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Dan%20Doh!!%20Tobase%20Shouri%20no%20Smile%20Shot%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Dan Doh!! Tobase Shouri no Smile Shot (Japan)">
         </img>
       <div class="overlay">
         <h5>Dan Doh!! Tobase Shouri no Smile Shot (Japan)</h5>
@@ -440,7 +460,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Dan%20Doh!!%20Xi%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Dan%20Doh!!%20Xi%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Dan Doh!! Xi (Japan)">
         </img>
       <div class="overlay">
         <h5>Dan Doh!! Xi (Japan)</h5>
@@ -468,7 +488,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Dancing%20Sword%20-%20Senkou%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Dancing%20Sword%20-%20Senkou%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Dancing Sword - Senkou (Japan)">
         </img>
       <div class="overlay">
         <h5>Dancing Sword - Senkou (Japan)</h5>
@@ -496,7 +516,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Danny%20Phantom%20-%20Dschungelstadt%20[Germany].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Danny%20Phantom%20-%20Dschungelstadt%20[Germany].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Danny Phantom - Dschungelstadt (Germany)">
         </img>
       <div class="overlay">
         <h5>Danny Phantom - Dschungelstadt (Germany)</h5>
@@ -524,7 +544,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Danny%20Phantom_%20The%20Ultimate%20Enemy-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Danny Phantom - The Ultimate Enemy (Europe) (En,De,Es)">
         </img>
       <div class="overlay">
         <h5>Danny Phantom - The Ultimate Enemy (Europe) (En,De,Es)</h5>
@@ -543,7 +563,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/page/38/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/page/40/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

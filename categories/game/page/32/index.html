@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/game/page/33/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/atari/Centipede-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/atari/Centipede-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Centipede (USA)">
         </img>
       <div class="overlay">
         <h5>Centipede (USA)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chaoji%20Maliou%202%20[China].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Chaoji%20Maliou%202%20[China].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chaoji Maliou 2 (China)">
         </img>
       <div class="overlay">
         <h5>Chaoji Maliou 2 (China)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chaoji Maliou Shijie (China)">
         </img>
       <div class="overlay">
         <h5>Chaoji Maliou Shijie (China)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Charlie%20and%20the%20Chocolate%20Factory-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Charlie and the Chocolate Factory (Europe) (En,Fr,Es,Nl)">
         </img>
       <div class="overlay">
         <h5>Charlie and the Chocolate Factory (Europe) (En,Fr,Es,Nl)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Charlie%20and%20the%20Chocolate%20Factory-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Charlie%20and%20the%20Chocolate%20Factory%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Charlie and the Chocolate Factory (USA) (En,Fr,Es,Nl)">
         </img>
       <div class="overlay">
         <h5>Charlie and the Chocolate Factory (USA) (En,Fr,Es,Nl)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Charlotte%27s%20Web%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Charlotte&#39;s Web (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Charlotte&#39;s Web (Europe) (En,Fr,De,Es,It)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Charlotte%27s%20Web%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Charlotte%27s%20Web%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Charlotte&#39;s Web (USA) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Charlotte&#39;s Web (USA) (En,Fr,De,Es,It)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Cheetah Girls, The (USA)">
         </img>
       <div class="overlay">
         <h5>Cheetah Girls, The (USA)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chessmaster-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Chessmaster%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chessmaster (Europe)">
         </img>
       <div class="overlay">
         <h5>Chessmaster (Europe)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chessmaster-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chessmaster (France)">
         </img>
       <div class="overlay">
         <h5>Chessmaster (France)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chessmaster-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chessmaster (Germany)">
         </img>
       <div class="overlay">
         <h5>Chessmaster (Germany)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chessmaster-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chessmaster (USA)">
         </img>
       <div class="overlay">
         <h5>Chessmaster (USA)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chi%20Vuol%20Essere%20Milionario%20[Italy].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Chi%20Vuol%20Essere%20Milionario%20[Italy].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chi Vuol Essere Milionario (Italy)">
         </img>
       <div class="overlay">
         <h5>Chi Vuol Essere Milionario (Italy)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chicken%20Little-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chicken Little (Japan)">
         </img>
       <div class="overlay">
         <h5>Chicken Little (Japan)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chicken%20Little-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Chicken%20Little%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chicken Little (USA, Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Chicken Little (USA, Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Chicken%20Shoot-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Chicken%20Shoot%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Chicken Shoot (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Chicken Shoot (Europe) (En,Fr,De,Es,It)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/game/page/31/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/game/page/33/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

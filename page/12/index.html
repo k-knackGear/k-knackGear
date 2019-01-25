@@ -28,9 +28,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -40,45 +62,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -88,7 +109,6 @@
     <a href="https://www.kknackgear.top/page/13/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -104,7 +124,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Alex%20Rider_%20Stormbreaker-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Alex%20Rider%20-%20Stormbreaker%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Alex Rider - Stormbreaker (USA)">
         </img>
       <div class="overlay">
         <h5>Alex Rider - Stormbreaker (USA)</h5>
@@ -132,7 +152,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Alien%20Hominid-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Alien%20Hominid%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Alien Hominid (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Alien Hominid (Europe) (En,Fr,De,Es,It)</h5>
@@ -160,7 +180,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Alienators_%20Evolution%20Continues-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Alienators%20-%20Evolution%20Continues%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Alienators - Evolution Continues (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>Alienators - Evolution Continues (USA, Europe)</h5>
@@ -188,7 +208,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/All%20Grown%20Up!%20Express%20Yourself-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/All%20Grown%20Up!%20-%20Express%20Yourself%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="All Grown Up! - Express Yourself (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>All Grown Up! - Express Yourself (USA, Europe)</h5>
@@ -216,7 +236,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202003-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202003%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="All-Star Baseball 2003 (USA)">
         </img>
       <div class="overlay">
         <h5>All-Star Baseball 2003 (USA)</h5>
@@ -244,7 +264,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202004-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202004%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="All-Star Baseball 2004 (USA)">
         </img>
       <div class="overlay">
         <h5>All-Star Baseball 2004 (USA)</h5>
@@ -272,7 +292,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202004-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="All-Star Baseball 2004 (USA) (Beta 1)">
         </img>
       <div class="overlay">
         <h5>All-Star Baseball 2004 (USA) (Beta 1)</h5>
@@ -300,7 +320,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/All-Star%20Baseball%202004-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="All-Star Baseball 2004 (USA) (Beta 2)">
         </img>
       <div class="overlay">
         <h5>All-Star Baseball 2004 (USA) (Beta 2)</h5>
@@ -328,7 +348,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Altered%20Beast%20-%20Guardian%20of%20the%20Realms%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Altered Beast - Guardian of the Realms (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Altered Beast - Guardian of the Realms (Europe) (En,Fr,De,Es,It)</h5>
@@ -356,7 +376,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Altered%20Beast%20-%20Guardian%20of%20the%20Realms%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Altered%20Beast%20-%20Guardian%20of%20the%20Realms%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Altered Beast - Guardian of the Realms (USA)">
         </img>
       <div class="overlay">
         <h5>Altered Beast - Guardian of the Realms (USA)</h5>
@@ -384,7 +404,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Amazing Virtual Sea-Monkeys, The (USA)">
         </img>
       <div class="overlay">
         <h5>Amazing Virtual Sea-Monkeys, The (USA)</h5>
@@ -412,7 +432,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/American%20Bass%20Challenge-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/American%20Bass%20Challenge%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="American Bass Challenge (USA)">
         </img>
       <div class="overlay">
         <h5>American Bass Challenge (USA)</h5>
@@ -440,7 +460,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="American Dragon - Jake Long - Rise of the Huntsclan (USA, Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>American Dragon - Jake Long - Rise of the Huntsclan (USA, Europe) (En,Fr,De,Es,It)</h5>
@@ -468,7 +488,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/American%20Idol%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/American%20Idol%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="American Idol (USA)">
         </img>
       <div class="overlay">
         <h5>American Idol (USA)</h5>
@@ -496,7 +516,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="American Tail, An - Fievel&#39;s Gold Rush (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>American Tail, An - Fievel&#39;s Gold Rush (Europe) (En,Fr,De,Es,It)</h5>
@@ -524,7 +544,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="American Tail, An - Fievel&#39;s Gold Rush (USA) (En,Es)">
         </img>
       <div class="overlay">
         <h5>American Tail, An - Fievel&#39;s Gold Rush (USA) (En,Es)</h5>
@@ -543,7 +563,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/page/11/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/page/13/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

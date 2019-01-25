@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/game/page/188/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Twin Series 3 - Konchuu Monster - Ouja Ketteisen &#43; Super Chinese Labyrinth (Japan)">
         </img>
       <div class="overlay">
         <h5>Twin Series 3 - Konchuu Monster - Ouja Ketteisen &#43; Super Chinese Labyrinth (Japan)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Twin Series 4 - Hamu Hamu Monster EX - Hamster Monogatari RPG &#43; Fantasy Puzzle - Hamster Monogatari - Mahou no Meikyuu 1.2.3 (Japan)">
         </img>
       <div class="overlay">
         <h5>Twin Series 4 - Hamu Hamu Monster EX - Hamster Monogatari RPG &#43; Fantasy Puzzle - Hamster Monogatari - Mahou no Meikyuu 1.2.3 (Japan)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Twin Series 5 - Mahou no Kuni no Cake-ya-san Monogatari &#43; Wanwan Meitantei EX (Japan)">
         </img>
       <div class="overlay">
         <h5>Twin Series 5 - Mahou no Kuni no Cake-ya-san Monogatari &#43; Wanwan Meitantei EX (Japan)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Twin%20Series%206%20-%20Wannyan%20Idol%20Gakuen%20&#43;%20Koinu%20to%20Issho%20Special%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Twin%20Series%206%20-%20Wannyan%20Idol%20Gakuen%20&#43;%20Koinu%20to%20Issho%20Special%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Twin Series 6 - Wannyan Idol Gakuen &#43; Koinu to Issho Special (Japan)">
         </img>
       <div class="overlay">
         <h5>Twin Series 6 - Wannyan Idol Gakuen &#43; Koinu to Issho Special (Japan)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Twin%20Series%207%20-%20Twin%20Puzzle,%20Kisekae%20Wanko%20EX%20&#43;%20Nyaa%20to%20Chuu%20no%20Rainbow%20Magic%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Twin Series 7 - Twin Puzzle - Kisekae Wanko EX &#43; Nyaa to Chuu no Rainbow Magic 2 (Japan)">
         </img>
       <div class="overlay">
         <h5>Twin Series 7 - Twin Puzzle - Kisekae Wanko EX &#43; Nyaa to Chuu no Rainbow Magic 2 (Japan)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ty%20the%20Tasmanian%20Tiger%202_%20Bush%20Rescue-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ty%20the%20Tasmanian%20Tiger%202%20-%20Bush%20Rescue%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ty the Tasmanian Tiger 2 - Bush Rescue (USA, Europe) (En,Fr,De)">
         </img>
       <div class="overlay">
         <h5>Ty the Tasmanian Tiger 2 - Bush Rescue (USA, Europe) (En,Fr,De)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ty%20the%20Tasmanian%20Tiger%203_%20Night%20of%20the%20Quinkan-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ty%20the%20Tasmanian%20Tiger%203%20-%20Night%20of%20the%20Quinkan%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ty the Tasmanian Tiger 3 - Night of the Quinkan (USA)">
         </img>
       <div class="overlay">
         <h5>Ty the Tasmanian Tiger 3 - Night of the Quinkan (USA)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Tyrian 2000 (USA) (Proto)">
         </img>
       <div class="overlay">
         <h5>Tyrian 2000 (USA) (Proto)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Uchuu%20Daisakusen%20Choco%20Vader%20-%20Uchuu%20kara%20no%20Shinryakusha%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Uchuu%20Daisakusen%20Choco%20Vader%20-%20Uchuu%20kara%20no%20Shinryakusha%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Uchuu Daisakusen Choco Vader - Uchuu kara no Shinryakusha (Japan)">
         </img>
       <div class="overlay">
         <h5>Uchuu Daisakusen Choco Vader - Uchuu kara no Shinryakusha (Japan)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Uchuu%20no%20Stellvia%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Uchuu%20no%20Stellvia%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Uchuu no Stellvia (Japan)">
         </img>
       <div class="overlay">
         <h5>Uchuu no Stellvia (Japan)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ueki no Housoku - Jingi Sakuretsu! Nouryokusha Battle (Japan)">
         </img>
       <div class="overlay">
         <h5>Ueki no Housoku - Jingi Sakuretsu! Nouryokusha Battle (Japan)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ui-Ire%20-%20World%20Soccer%20Winning%20Eleven%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ui-Ire%20-%20World%20Soccer%20Winning%20Eleven%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ui-Ire - World Soccer Winning Eleven (Japan)">
         </img>
       <div class="overlay">
         <h5>Ui-Ire - World Soccer Winning Eleven (Japan)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Arcade%20Games-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Arcade%20Games%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ultimate Arcade Games (USA)">
         </img>
       <div class="overlay">
         <h5>Ultimate Arcade Games (USA)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Beach%20Soccer-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Beach%20Soccer%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ultimate Beach Soccer (USA)">
         </img>
       <div class="overlay">
         <h5>Ultimate Beach Soccer (USA)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Brain%20Games-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Brain%20Games%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ultimate Brain Games (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>Ultimate Brain Games (USA, Europe)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ultimate%20Card%20Games-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ultimate Card Games (USA) (Rev 2)">
         </img>
       <div class="overlay">
         <h5>Ultimate Card Games (USA) (Rev 2)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/game/page/186/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/game/page/188/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

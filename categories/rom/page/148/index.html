@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/rom/page/149/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/River%20City%20Ransom%20EX%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/River%20City%20Ransom%20EX%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="River City Ransom EX (USA)">
         </img>
       <div class="overlay">
         <h5>River City Ransom EX (USA)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Riviera%20-%20The%20Promised%20Land%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Riviera%20-%20The%20Promised%20Land%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Riviera - The Promised Land (USA)">
         </img>
       <div class="overlay">
         <h5>Riviera - The Promised Land (USA)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Riviera%20-%20Yakusoku%20no%20Chi%20Riviera%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Riviera - Yakusoku no Chi Riviera (Japan)">
         </img>
       <div class="overlay">
         <h5>Riviera - Yakusoku no Chi Riviera (Japan)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Road%20Rash_%20Jailbreak-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Road Rash - Jailbreak (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Road Rash - Jailbreak (Europe) (En,Fr,De,Es,It)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Road%20Rash_%20Jailbreak-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Road%20Rash%20-%20Jailbreak%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Road Rash - Jailbreak (USA)">
         </img>
       <div class="overlay">
         <h5>Road Rash - Jailbreak (USA)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Road Runner (USA) (Proto)">
         </img>
       <div class="overlay">
         <h5>Road Runner (USA) (Proto)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Road%20Trip_%20Shifting%20Gears-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Road%20Trip%20-%20Shifting%20Gears%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Road Trip - Shifting Gears (USA)">
         </img>
       <div class="overlay">
         <h5>Road Trip - Shifting Gears (USA)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robopon%202%20Cross%20Version-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robopon%202%20-%20Cross%20Version%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robopon 2 - Cross Version (USA)">
         </img>
       <div class="overlay">
         <h5>Robopon 2 - Cross Version (USA)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robopon%202_%20Ring%20Version-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robopon%202%20-%20Ring%20Version%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robopon 2 - Ring Version (USA)">
         </img>
       <div class="overlay">
         <h5>Robopon 2 - Ring Version (USA)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robot%20Poncots%202%20-%20Cross%20Version%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robot%20Poncots%202%20-%20Cross%20Version%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robot Poncots 2 - Cross Version (Japan)">
         </img>
       <div class="overlay">
         <h5>Robot Poncots 2 - Cross Version (Japan)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robot%20Poncots%202%20-%20Ring%20Version%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robot%20Poncots%202%20-%20Ring%20Version%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robot Poncots 2 - Ring Version (Japan)">
         </img>
       <div class="overlay">
         <h5>Robot Poncots 2 - Ring Version (Japan)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robot%20Wars_%20Advanced%20Destruction-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robot%20Wars%20-%20Advanced%20Destruction%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robot Wars - Advanced Destruction (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Robot Wars - Advanced Destruction (Europe) (En,Fr,De,Es,It)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robot%20Wars_%20Advanced%20Destruction-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robot Wars - Advanced Destruction (USA)">
         </img>
       <div class="overlay">
         <h5>Robot Wars - Advanced Destruction (USA)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robot%20Wars_%20Extreme%20Destruction-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robot%20Wars%20-%20Extreme%20Destruction%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robot Wars - Extreme Destruction (Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Robot Wars - Extreme Destruction (Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Robotech_%20The%20Macross%20Saga-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Robotech%20-%20The%20Macross%20Saga%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robotech - The Macross Saga (USA, Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Robotech - The Macross Saga (USA, Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Robotron 2084 (USA)">
         </img>
       <div class="overlay">
         <h5>Robotron 2084 (USA)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/rom/page/147/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/rom/page/149/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/game/page/152/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Rugrats_%20Go%20Wild-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Rugrats%20-%20Go%20Wild%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Rugrats - Go Wild (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>Rugrats - Go Wild (USA, Europe)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Rugrats_%20I%20Gotta%20Go%20Party-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Rugrats%20-%20I%20Gotta%20Go%20Party%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Rugrats - I Gotta Go Party (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>Rugrats - I Gotta Go Party (USA, Europe)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Rugrats%20-%20Travesuras%20en%20el%20Castillo%20[Spain].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Rugrats%20-%20Travesuras%20en%20el%20Castillo%20[Spain].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Rugrats - Travesuras en el Castillo (Spain)">
         </img>
       <div class="overlay">
         <h5>Rugrats - Travesuras en el Castillo (Spain)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SD%20Gundam%20Force-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/SD%20Gundam%20Force%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SD Gundam Force (Japan) (En)">
         </img>
       <div class="overlay">
         <h5>SD Gundam Force (Japan) (En)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SD%20Gundam%20Force-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SD Gundam Force (USA)">
         </img>
       <div class="overlay">
         <h5>SD Gundam Force (USA)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SD%20Gundam%20G%20Generation%20Advance%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/SD%20Gundam%20G%20Generation%20Advance%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SD Gundam G Generation Advance (Japan)">
         </img>
       <div class="overlay">
         <h5>SD Gundam G Generation Advance (Japan)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SK8%20-%20Tony%20Hawk%27s%20Pro%20Skater%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/SK8%20-%20Tony%20Hawk%27s%20Pro%20Skater%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SK8 - Tony Hawk&#39;s Pro Skater 2 (Japan)">
         </img>
       <div class="overlay">
         <h5>SK8 - Tony Hawk&#39;s Pro Skater 2 (Japan)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SSX%203-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/SSX%203%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SSX 3 (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>SSX 3 (USA, Europe)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/SSX%20Tricky-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/SSX%20Tricky%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="SSX Tricky (USA, Europe) (En,Fr,De)">
         </img>
       <div class="overlay">
         <h5>SSX Tricky (USA, Europe) (En,Fr,De)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Sabre%20Wulf%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Sabre%20Wulf%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Sabre Wulf (Europe) (En,Fr,De)">
         </img>
       <div class="overlay">
         <h5>Sabre Wulf (Europe) (En,Fr,De)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Sabre%20Wulf%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Sabre Wulf (USA)">
         </img>
       <div class="overlay">
         <h5>Sabre Wulf (USA)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Sabrina%20The%20Teenage%20Witch_%20Potion%20Commotion-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Sabrina - The Teenage Witch - Potion Commotion (Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Sabrina - The Teenage Witch - Potion Commotion (Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Sabrina%20The%20Teenage%20Witch_%20Potion%20Commotion-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Sabrina%20-%20The%20Teenage%20Witch%20-%20Potion%20Commotion%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Sabrina - The Teenage Witch - Potion Commotion (USA) (En,Fr,Es)">
         </img>
       <div class="overlay">
         <h5>Sabrina - The Teenage Witch - Potion Commotion (USA) (En,Fr,Es)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Saibara%20Rieko%20no%20Dendou%20Mahjong%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Saibara%20Rieko%20no%20Dendou%20Mahjong%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Saibara Rieko no Dendou Mahjong (Japan)">
         </img>
       <div class="overlay">
         <h5>Saibara Rieko no Dendou Mahjong (Japan)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Sakura%20Momoko%20no%20UkiUki%20Carnival%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Sakura%20Momoko%20no%20UkiUki%20Carnival%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Sakura Momoko no UkiUki Carnival (Japan)">
         </img>
       <div class="overlay">
         <h5>Sakura Momoko no UkiUki Carnival (Japan)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Salt%20Lake%202002-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Salt Lake 2002 (Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Salt Lake 2002 (Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/game/page/150/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/game/page/152/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/rom/page/74/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Gekitou!%20Car%20Battler%20Go!!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Gekitou!%20Car%20Battler%20Go!!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Gekitou! Car Battler Go!! (Japan)">
         </img>
       <div class="overlay">
         <h5>Gekitou! Car Battler Go!! (Japan)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Gem%20Smashers-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Gem%20Smashers%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Gem Smashers (USA)">
         </img>
       <div class="overlay">
         <h5>Gem Smashers (USA)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Genseishin%20Justirisers%20-%20Souchaku!%20Hoshi%20no%20Senshi-tachi%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Genseishin%20Justirisers%20-%20Souchaku!%20Hoshi%20no%20Senshi-tachi%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Genseishin Justirisers - Souchaku! Hoshi no Senshi-tachi (Japan)">
         </img>
       <div class="overlay">
         <h5>Genseishin Justirisers - Souchaku! Hoshi no Senshi-tachi (Japan)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Gensou Maden Saiyuuki - Hangyaku no Toushin-taishi (Japan)">
         </img>
       <div class="overlay">
         <h5>Gensou Maden Saiyuuki - Hangyaku no Toushin-taishi (Japan)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Gensou%20Suikoden%20-%20Card%20Stories%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Gensou%20Suikoden%20-%20Card%20Stories%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Gensou Suikoden - Card Stories (Japan)">
         </img>
       <div class="overlay">
         <h5>Gensou Suikoden - Card Stories (Japan)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Get%20Ride!%20Amdriver%20-%20Senkou%20no%20Hero%20Tanjou!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Get%20Ride!%20Amdriver%20-%20Senkou%20no%20Hero%20Tanjou!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Get Ride! Amdriver - Senkou no Hero Tanjou! (Japan)">
         </img>
       <div class="overlay">
         <h5>Get Ride! Amdriver - Senkou no Hero Tanjou! (Japan)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Get%20Ride!%20Amdriver%20-%20Shutsugeki!%20Battle%20Party%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Get%20Ride!%20Amdriver%20-%20Shutsugeki!%20Battle%20Party%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Get Ride! Amdriver - Shutsugeki! Battle Party (Japan)">
         </img>
       <div class="overlay">
         <h5>Get Ride! Amdriver - Shutsugeki! Battle Party (Japan)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Get!%20-%20Boku%20no%20Mushi%20Tsukamaete%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Get!%20-%20Boku%20no%20Mushi%20Tsukamaete%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Get! - Boku no Mushi Tsukamaete (Japan)">
         </img>
       <div class="overlay">
         <h5>Get! - Boku no Mushi Tsukamaete (Japan)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Jagan%20Fuuin!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Jagan%20Fuuin!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="GetBackers Dakkanya - Jagan Fuuin! (Japan)">
         </img>
       <div class="overlay">
         <h5>GetBackers Dakkanya - Jagan Fuuin! (Japan)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Jigoku%20no%20Scaramouche%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Jigoku%20no%20Scaramouche%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="GetBackers Dakkanya - Jigoku no Scaramouche (Japan)">
         </img>
       <div class="overlay">
         <h5>GetBackers Dakkanya - Jigoku no Scaramouche (Japan)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Metropolis%20Dakkan%20Sakusen!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/GetBackers%20Dakkanya%20-%20Metropolis%20Dakkan%20Sakusen!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="GetBackers Dakkanya - Metropolis Dakkan Sakusen! (Japan)">
         </img>
       <div class="overlay">
         <h5>GetBackers Dakkanya - Metropolis Dakkan Sakusen! (Japan)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ghost%20Rider-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ghost%20Rider%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ghost Rider (USA, Europe) (En,Fr,De,Es,It,Nl)">
         </img>
       <div class="overlay">
         <h5>Ghost Rider (USA, Europe) (En,Fr,De,Es,It,Nl)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Ghost%20Trap%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Ghost%20Trap%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Ghost Trap (Japan)">
         </img>
       <div class="overlay">
         <h5>Ghost Trap (Japan)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Global%20Star_%20Sudoku%20Fever-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Global Star - Sudoku Fever (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Global Star - Sudoku Fever (Europe) (En,Fr,De,Es,It)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Global%20Star_%20Sudoku%20Fever-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Global%20Star%20-%20Sudoku%20Fever%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Global Star - Sudoku Fever (USA)">
         </img>
       <div class="overlay">
         <h5>Global Star - Sudoku Fever (USA)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Glory%20Days%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Glory%20Days%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Glory Days (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Glory Days (Europe) (En,Fr,De,Es,It)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/rom/page/72/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/rom/page/74/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

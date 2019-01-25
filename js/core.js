@@ -16,5 +16,5 @@ function hamburgerMenuPressed() {
         document.body.style.paddingRight = window.innerWidth - document.documentElement.clientWidth + "px";
         document.body.classList.add('no-scroll');
     }
-    
+
 }

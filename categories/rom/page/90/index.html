@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/categories/rom/page/91/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kawa%20no%20Nushi%20Tsuri%205%20-%20Fushigi%20no%20Mori%20kara%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kawa%20no%20Nushi%20Tsuri%205%20-%20Fushigi%20no%20Mori%20kara%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kawa no Nushi Tsuri 5 - Fushigi no Mori kara (Japan)">
         </img>
       <div class="overlay">
         <h5>Kawa no Nushi Tsuri 5 - Fushigi no Mori kara (Japan)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Koinu%20Wonderful%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Koinu%20Wonderful%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kawaii Koinu Wonderful (Japan)">
         </img>
       <div class="overlay">
         <h5>Kawaii Koinu Wonderful (Japan)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Game%20Gallery%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Game%20Gallery%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kawaii Pet Game Gallery (Japan)">
         </img>
       <div class="overlay">
         <h5>Kawaii Pet Game Gallery (Japan)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Game%20Gallery%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Game%20Gallery%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kawaii Pet Game Gallery 2 (Japan)">
         </img>
       <div class="overlay">
         <h5>Kawaii Pet Game Gallery 2 (Japan)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Shop%20Monogatari%203%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kawaii%20Pet%20Shop%20Monogatari%203%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kawaii Pet Shop Monogatari 3 (Japan)">
         </img>
       <div class="overlay">
         <h5>Kawaii Pet Shop Monogatari 3 (Japan)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kaze%20no%20Klonoa%20-%20Yumemiru%20Teikoku%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kaze%20no%20Klonoa%20-%20Yumemiru%20Teikoku%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kaze no Klonoa - Yumemiru Teikoku (Japan)">
         </img>
       <div class="overlay">
         <h5>Kaze no Klonoa - Yumemiru Teikoku (Japan)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kaze%20no%20Klonoa%20G2%20-%20Dream%20Champ%20Tournament%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kaze%20no%20Klonoa%20G2%20-%20Dream%20Champ%20Tournament%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kaze no Klonoa G2 - Dream Champ Tournament (Japan)">
         </img>
       <div class="overlay">
         <h5>Kaze no Klonoa G2 - Dream Champ Tournament (Japan)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Keitai%20Denjuu%20Telefang%202%20-%20Power%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Keitai%20Denjuu%20Telefang%202%20-%20Power%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Keitai Denjuu Telefang 2 - Power (Japan)">
         </img>
       <div class="overlay">
         <h5>Keitai Denjuu Telefang 2 - Power (Japan)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Keitai%20Denjuu%20Telefang%202%20-%20Speed%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Keitai%20Denjuu%20Telefang%202%20-%20Speed%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Keitai Denjuu Telefang 2 - Speed (Japan)">
         </img>
       <div class="overlay">
         <h5>Keitai Denjuu Telefang 2 - Speed (Japan)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kelly%20Slater%27s%20Pro%20Surfer%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kelly%20Slater%27s%20Pro%20Surfer%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kelly Slater&#39;s Pro Surfer (USA, Europe)">
         </img>
       <div class="overlay">
         <h5>Kelly Slater&#39;s Pro Surfer (USA, Europe)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Keroro%20Gunsou%20-%20Taiketsu!%20Gekisou%20Keronprix%20Daisakusen%20de%20Arimasu!!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Keroro%20Gunsou%20-%20Taiketsu!%20Gekisou%20Keronprix%20Daisakusen%20de%20Arimasu!!%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Keroro Gunsou - Taiketsu! Gekisou Keronprix Daisakusen de Arimasu!! (Japan)">
         </img>
       <div class="overlay">
         <h5>Keroro Gunsou - Taiketsu! Gekisou Keronprix Daisakusen de Arimasu!! (Japan)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kessaku%20Sen!%20-%20Ganbare%20Goemon%201,%202,%20Yuki%20Hime%20to%20Magginesu%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kessaku Sen! - Ganbare Goemon 1, 2 - Yuki Hime to Magginesu (Japan)">
         </img>
       <div class="overlay">
         <h5>Kessaku Sen! - Ganbare Goemon 1, 2 - Yuki Hime to Magginesu (Japan)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/atari/Keystone%20Kapers-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/atari/Keystone%20Kapers-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Keystone Kapers (USA)">
         </img>
       <div class="overlay">
         <h5>Keystone Kapers (USA)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kid%20Paddle%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kid%20Paddle%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kid Paddle (Europe) (Fr,Nl)">
         </img>
       <div class="overlay">
         <h5>Kid Paddle (Europe) (Fr,Nl)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Kid%27s%20Cards%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Kid%27s%20Cards%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kid&#39;s Cards (USA)">
         </img>
       <div class="overlay">
         <h5>Kid&#39;s Cards (USA)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Kidou Gekidan Haro Ichiza Haro no Puyo Puyo (Japan)">
         </img>
       <div class="overlay">
         <h5>Kidou Gekidan Haro Ichiza Haro no Puyo Puyo (Japan)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/categories/rom/page/89/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/categories/rom/page/91/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"

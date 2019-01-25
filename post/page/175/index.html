@@ -27,9 +27,31 @@
   <link rel="stylesheet" href="https://www.kknackgear.top/css/latolatinfonts.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  
+  <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+  <script src="http://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.min.js"></script>
+  
+  <script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+  
+  <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-2.1.1.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/core.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.slim.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.3.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/3.2.0/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/2.2.3/jquery.min.js"></script>
+  <script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+  
+  <script src="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/js/bootstrap.min.js"></script>
+  <link href="https://cdn.bootcss.com/twitter-bootstrap/4.1.0/css/bootstrap.min.css" rel="stylesheet">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.5/lunr.min.js"></script>
-  <script src="https://cdn.bootcss.com/lunr.js/2.3.5/lunr.min.js"></script>
+  
+  
   
   <style>
     body {
@@ -39,45 +61,44 @@
   
 </head>
 
-<body class="body">
-  <nav class="nav-bar side-padding">
-  <h1 class="nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
+<body class="container body">
+  <nav class="row nav-bar side-padding">
+  <h1 class="col-6 nav-header"><a href="https://www.kknackgear.top/" class="nav-text">
     K-knackGear
   </a></h1>
-  
-  <div class="hamburger-menu">
-		<input type="checkbox" onclick="hamburgerMenuPressed()"/>
-		<span></span>
-		<span></span>
-    <ul class="hamburger-menu-overlay">
-      <li><a href="https://www.kknackgear.top/" class="hamburger-menu-overlay-link">Home</a></li>
+
+  <div class="col-6 float-left hamburger-menu">
+		
+    <ul class="nav hamburger-menu-overlay">
+      <li class="nav-item"><a href="https://www.kknackgear.top/" class="nav-link hamburger-menu-overlay-link">Home</a></li>
       
-			<li><a href="https://www.kknackgear.top/about/" class="hamburger-menu-overlay-link">The games you should remember.</a></li>
-			
       
-			<li><a href="https://www.kknackgear.top/categories/game" class="hamburger-menu-overlay-link">Game</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/game" class="nav-link hamburger-menu-overlay-link">Game</a></li>
 			
-			<li><a href="https://www.kknackgear.top/categories/rom" class="hamburger-menu-overlay-link">Rom</a></li>
+			<li class="nav-item"><a href="https://www.kknackgear.top/categories/rom" class="nav-link hamburger-menu-overlay-link">Rom</a></li>
 			
     </ul>
-	
-	
-	
+
+
+
   </div>
 </nav>
+
   
-<div id="result" class="search-section" style="display:block;">
+<div class="row">
+
+<div id="searchresultext" class="col-8">
+
+</div>
+
+<div id="result" class="col-4" style="display:block;">
 
 		<input id="keyword" type="text" value="">
 		<button type="button" name="search" onclick="search()">search</button>
 		
-
-
-</div>
-<div id="searchresultext" class="search-result">
-
 </div>
 
+</div>
 
 
   
@@ -87,7 +108,6 @@
     <a href="https://www.kknackgear.top/post/page/176/" class="pagination-older">Older Posts &gt;</a>
   </nav>
   
-
   <main class="container">
     
     <div class="row">
@@ -103,7 +123,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen_%20Original%20Generation-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20-%20Original%20Generation%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen - Original Generation (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen - Original Generation (Japan)</h5>
@@ -131,7 +151,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen_%20Original%20Generation-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen - Original Generation (USA)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen - Original Generation (USA)</h5>
@@ -159,7 +179,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen_%20Original%20Generation%202-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20-%20Original%20Generation%202%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen - Original Generation 2 (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen - Original Generation 2 (Japan)</h5>
@@ -187,7 +207,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen_%20Original%20Generation%202-01.png" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen - Original Generation 2 (USA)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen - Original Generation 2 (USA)</h5>
@@ -215,7 +235,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20A%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20A%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen A (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen A (Japan)</h5>
@@ -243,7 +263,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20D%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20D%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen D (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen D (Japan)</h5>
@@ -271,7 +291,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20J%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20J%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen J (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen J (Japan)</h5>
@@ -299,7 +319,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20R%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Robot%20Taisen%20R%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Robot Taisen R (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Robot Taisen R (Japan)</h5>
@@ -327,7 +347,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20Turbo_%20Revival-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20Turbo%20Revival%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Street Fighter II Turbo - Revival (Europe)">
         </img>
       <div class="overlay">
         <h5>Super Street Fighter II Turbo - Revival (Europe)</h5>
@@ -355,7 +375,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20Turbo_%20Revival-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Street Fighter II Turbo - Revival (USA)">
         </img>
       <div class="overlay">
         <h5>Super Street Fighter II Turbo - Revival (USA)</h5>
@@ -383,7 +403,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20Turbo_%20Revival-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Street Fighter II Turbo - Revival (USA) (Wii U Virtual Console)">
         </img>
       <div class="overlay">
         <h5>Super Street Fighter II Turbo - Revival (USA) (Wii U Virtual Console)</h5>
@@ -411,7 +431,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20X%20-%20Revival%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Super%20Street%20Fighter%20II%20X%20-%20Revival%20[Japan].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Super Street Fighter II X - Revival (Japan)">
         </img>
       <div class="overlay">
         <h5>Super Street Fighter II X - Revival (Japan)</h5>
@@ -439,7 +459,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Superman_%20Countdown%20to%20Apokolips-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Superman - Countdown to Apokolips (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Superman - Countdown to Apokolips (Europe) (En,Fr,De,Es,It)</h5>
@@ -467,7 +487,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Superman_%20Countdown%20to%20Apokolips-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Superman%20-%20Countdown%20to%20Apokolips%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Superman - Countdown to Apokolips (USA)">
         </img>
       <div class="overlay">
         <h5>Superman - Countdown to Apokolips (USA)</h5>
@@ -495,7 +515,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Superman%20Returns_%20Fortress%20of%20Solitude-01.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/gba/Superman%20Returns%20-%20Fortress%20of%20Solitude%20[USA].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Superman Returns - Fortress of Solitude (USA, Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Superman Returns - Fortress of Solitude (USA, Europe) (En,Fr,De,Es,It)</h5>
@@ -523,7 +543,7 @@
     
 
 
-      <img src="https://www.kknackgear.top/img/gba/Surf%27s%20Up%20[Europe].jpg" class="<!--img-rounded--> img-thumbnail img-responsive" >
+      <img src="https://www.kknackgear.top/img/miss/gamemiss.jpg" class="<!--img-rounded--> img-thumbnail img-responsive" alt="Surf&#39;s Up (Europe) (En,Fr,De,Es,It)">
         </img>
       <div class="overlay">
         <h5>Surf&#39;s Up (Europe) (En,Fr,De,Es,It)</h5>
@@ -542,7 +562,12 @@
         
     </div>
   </main>
-
+  
+  <nav class="pagination-nav">
+    <a href="https://www.kknackgear.top/post/page/174/" class="pagination-newer">&lt; Newer Posts</a>
+    <a href="https://www.kknackgear.top/post/page/176/" class="pagination-older">Older Posts &gt;</a>
+  </nav>
+  
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/katex.min.js" integrity="sha384-K3vbOmF2BtaVai+Qk37uypf7VrgBubhQreNQe9aGsz9lB63dIFiQVlJbr92dw2Lx" crossorigin="anonymous"></script>
 <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.0/dist/contrib/auto-render.min.js" integrity="sha384-kmZOZB5ObwgQnS/DuDg6TScgOiWWBiVt0plIRkZCmE6rDZGrEOQeHM5PcHi+nyqe" crossorigin="anonymous"
