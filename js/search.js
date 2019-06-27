@@ -50,7 +50,10 @@ function search() {
   }
   //return resultext;
 }
-
+function searchbygoogle(){
+  var keyword = $("#keyword").val();
+  window.open('https://www.google.com/search?q=site:kknackgear.top+'+keyword);
+}
 /*
 $(document).ready(function(){
   $("button#clear").click(function(){
