@@ -1,10 +1,10 @@
 {
   "manifest_version": 2,
-  "name": "Hugo Zzo theme",
-  "short_name": "Hugo Zzo theme",
+  "name": "kknackgear",
+  "short_name": "kknackgear",
   "version": "1.0.0",
   "default_locale": "en",
-  "description": "Hugo blog theme with rich features",
+  "description": "Download all of the PC, Console,and Handheld Console games right here",
   "start_url": "https://themes.gohugo.io/theme/hugo-theme-zzo/",
   "icons": [
     {
